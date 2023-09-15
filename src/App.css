@@ -20,24 +20,17 @@
   margin: auto;
 }
 
-/* Custom CSS to remove slick arrow styles */
-/* Remove background color and adjust other styles as needed */
-.slick-prev,
-.slick-next {
-  background-color: transparent;
-  color: inherit; /* Use the default color */
-  font-size: inherit; /* Use the default font size */
-  /* Add other styles you want to reset */
-}
 
-/* Optionally, remove arrow icons (font icons or images) */
-.slick-prev:before,
-.slick-next:before {
-  content: none;
+
+.container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 
-.slick-prev {
-  position: relative; /* or 'relative', 'initial', or any other appropriate value */
-  left: 0;
-}
+
+
+

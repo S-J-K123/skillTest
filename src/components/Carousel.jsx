@@ -37,29 +37,38 @@ const Carousel = () => {
     slidesToScroll: 1,
     nextArrow: <SampleNextArrow />,
     prevArrow: <SamplePrevArrow />,
+    style: { width: "800px", height: "100%" }
   };
 
   const slider = useRef(null);
+  const imageStyle = {
+    width: "100%", 
+    height: "auto", 
+
+  };
   return (
     <div className="container">
+        <div className=" section">
       <Slider {...settings} ref={slider}>
         <div>
           <h3>
-            <img className="picOne" src={picOne} alt="pic one" />
+            <img style={imageStyle} className="picOne" src={picOne} alt="pic one" />
           </h3>
         </div>
         <div>
           <h3>
-            <img className="picTwo" src={picTwo} alt="pic two" />
+            <img style={imageStyle} className="picTwo" src={picTwo} alt="pic two" />
           </h3>
         </div>
         <div>
           <h3>
-            <img className="picThree" src={picThree} alt="pic-three" />
+            <img style={imageStyle} className="picThree" src={picThree} alt="pic-three" />
           </h3>
         </div>
       </Slider>
     </div>
+    </div>
+  
   );
 };
 
