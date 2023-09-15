@@ -11,18 +11,20 @@
 .picOne {
   margin: auto;
   width: 500px;
-
+text-align: center;
 }
 
 .picTwo {
   margin: auto;
   width: 500px;
+  text-align: center;
 
 }
 
 .picThree {
   margin: auto;
   width: 500px;
+  text-align: center;
 }
 
 

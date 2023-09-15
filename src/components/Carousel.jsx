@@ -38,16 +38,16 @@ const Carousel = () => {
     nextArrow: <SampleNextArrow />,
     prevArrow: <SamplePrevArrow />,
     style: { width: "800px", height: "100%"},
-    responsive:{
-      breakpoint: 800,
+    responsive:[
+    {  breakpoint: 863,
       settings: {
         infinite: false,
         speed: 700,
         slidesToShow: 1,
         slidesToScroll: 1,
-        arrows: false,
+        arrows: false}
       }
-    }
+    ]
   };
 
   const slider = useRef(null);
