@@ -37,7 +37,7 @@ const Carousel = () => {
     slidesToScroll: 1,
     nextArrow: <SampleNextArrow />,
     prevArrow: <SamplePrevArrow />,
-    style: { width: "800px", height: "100%" }
+    style: { width: "800px", height: "100%"}
   };
 
   const slider = useRef(null);
