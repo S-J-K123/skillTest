@@ -37,7 +37,17 @@ const Carousel = () => {
     slidesToScroll: 1,
     nextArrow: <SampleNextArrow />,
     prevArrow: <SamplePrevArrow />,
-    style: { width: "800px", height: "100%"}
+    style: { width: "800px", height: "100%"},
+    responsive:{
+      breakpoint: 800,
+      settings: {
+        infinite: false,
+        speed: 700,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: false,
+      }
+    }
   };
 
   const slider = useRef(null);
@@ -46,6 +56,7 @@ const Carousel = () => {
     height: "auto", 
 
   };
+  
   return (
     <div className="container">
         <div className=" section">

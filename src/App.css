@@ -41,23 +41,36 @@
 
 
 
-@media (max-width: 600px) {
+@media (max-width: 860px) {
   .picOne {
-    width: 490px;
-    height: 600px;
+    width: 100%px;
+    max-width: 600px;
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 860px) {
   .picTwo {
-    width: 490px;
-    height: 600px;
+    width: 100%px;
+    max-width: 600px;
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 860px) {
   .picThree {
-    width: 490px;
-    height: 600px;
+    width: 100%px;
+    max-width: 600px;
   }
+}
+
+.slick-next,
+ .slick-prev {
+  display: none;
+}
+
+
+@media (max-width: 860px) {
+  .slick-next,
+  .slick-prev {
+   display: none;
+ }
 }
