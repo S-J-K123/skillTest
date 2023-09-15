@@ -10,14 +10,19 @@
 
 .picOne {
   margin: auto;
+  width: 500px;
+
 }
 
 .picTwo {
   margin: auto;
+  width: 500px;
+
 }
 
 .picThree {
   margin: auto;
+  width: 500px;
 }
 
 
@@ -28,9 +33,31 @@
   justify-content: center;
   align-items: center;
   text-align: center;
+  padding-top: 132px;
 }
 
 
 
 
 
+
+@media (max-width: 600px) {
+  .picOne {
+    width: 490px;
+    height: 600px;
+  }
+}
+
+@media (max-width: 600px) {
+  .picTwo {
+    width: 490px;
+    height: 600px;
+  }
+}
+
+@media (max-width: 600px) {
+  .picThree {
+    width: 490px;
+    height: 600px;
+  }
+}

@@ -3,9 +3,9 @@ import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import React from "react";
 import { useRef } from "react";
-import picOne from "../assets/pic-1.png";
-import picTwo from "../assets/pic-2.png";
-import picThree from "../assets/pic-3.png";
+import picOne from "../assets/img 1.jpg";
+import picTwo from "../assets/img-2.jpg";
+import picThree from "../assets/img-3.jpg";
 
 function SampleNextArrow(props) {
   const { className, style, onClick } = props;
